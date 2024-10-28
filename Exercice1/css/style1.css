@@ -1,0 +1,66 @@
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.puzzle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 460px;
+    height: 460px;
+}
+
+.piece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#piece1 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#piece2 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#piece3 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#piece4 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#piece5 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#piece6 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#piece7 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#piece8 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#piece9 {
+    grid-column: 1;
+    grid-row: 2;
+}

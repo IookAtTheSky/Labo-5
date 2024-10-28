@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.puzzle {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 150px 150px 150px 150px;
+}
+
+#piece01 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+#piece02 {
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+#piece03 {
+    grid-column: 4; 
+    grid-row: 1;
+}
+
+#piece04 {
+    grid-column: 1;
+    grid-row: 2; 
+}
+
+#piece05 {
+    grid-column: 2 / 3; 
+    grid-row: 2;
+}
+
+#piece06 {
+    grid-column: 1;
+    grid-row: 3; 
+}
+
+#piece07 {
+    grid-column: 2; 
+    grid-row: 3;
+}
+
+#piece08 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#piece09 {
+    grid-column: 2; 
+    grid-row: 4; 
+}
+
+#piece10 {
+    grid-column: 4; 
+    grid-row: 4;
+}
+
+.piece-s img, .piece-h img, .piece-l img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
